@@ -20,7 +20,7 @@ class Polygon:                              # Базовый класс
             
 class Triangle(Polygon):                    # Производный класс (подкласс)
     def __init__(self):
-        Polygon.__init__(self,3)
+        Polygon.__init__(self, 3)
 
     def findArea(self):
         a, b, c = self.sides
